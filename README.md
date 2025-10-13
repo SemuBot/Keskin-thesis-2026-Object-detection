@@ -1,15 +1,15 @@
-# Keskin-thesis-2026-Object-detection
+#  Keskin-thesis-2026-Object-detection
 
-A visual recognition and object detection module for SemuBot, developed at the University of Tartu.
-The module detects people, obstacles, and objects like balls, allowing the robot to respond with simple actions such as FOLLOW, STOP, or GREET.
+A visual recognition and object detection module for **SemuBot**, developed at the University of Tartu.
 
+This repository contains YOLO-based scripts for detecting **people, objects, postures, and waving gestures**.
+The goal is to give SemuBot simple visual awareness.
 
-For Setup, see the "requirements.txt". 
+---
 
+##  Requirements
 
-Yiğithan Keskin
-University of Tartu — Robotics & Bioengineering
+All dependencies are listed in [`requirements.txt`].  
+To install:
 
-README.md will be updated over time.
-
-
+bash --> pip install -r requirements.txt
